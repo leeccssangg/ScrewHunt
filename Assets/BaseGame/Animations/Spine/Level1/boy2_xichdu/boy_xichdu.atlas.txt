@@ -1,0 +1,20 @@
+boy_xichdu.png
+size:472,272
+filter:Linear,Linear
+pma:true
+Group 45
+bounds:317,133,107,137
+Group 48
+bounds:2,16,275,254
+Layer 1076
+bounds:279,2,99,149
+rotate:90
+day
+bounds:279,103,36,167
+day2
+bounds:430,110,34,160
+ghe
+bounds:430,37,71,37
+rotate:90
+nuocmat
+bounds:430,26,11,9

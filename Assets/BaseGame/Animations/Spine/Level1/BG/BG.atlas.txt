@@ -1,0 +1,322 @@
+BG.png
+size:1924,1544
+filter:Linear,Linear
+pma:true
+Ellipse 3
+bounds:1116,721,105,204
+rotate:90
+Group 101
+bounds:1545,1347,63,209
+rotate:90
+Group 101 copy
+bounds:1148,1209,63,209
+rotate:90
+Group 102
+bounds:852,218,157,192
+Group 104
+bounds:1594,129,62,82
+rotate:90
+Group 106
+bounds:1747,137,62,60
+rotate:90
+Group 108
+bounds:1056,551,162,64
+rotate:90
+Group 109
+bounds:1359,1153,131,119
+Group 109 copy
+bounds:1170,828,129,159
+rotate:90
+Group 115
+bounds:2,88,476,318
+rotate:90
+Group 19
+bounds:845,718,57,36
+rotate:90
+Group 19 copy
+bounds:1756,1353,57,36
+rotate:90
+Group 24
+bounds:845,573,209,140
+Group 25
+bounds:418,1105,462,437
+Group 26
+bounds:699,882,221,202
+rotate:90
+Group 28
+bounds:882,1250,264,292
+Group 36
+bounds:1545,1223,122,192
+rotate:90
+Group 36 copy 3
+bounds:902,715,212,131
+Group 36 copy 4
+bounds:1011,218,123,192
+Group 36 copy 5
+bounds:437,398,182,192
+Group 36 copy 6
+bounds:437,204,182,192
+Group 362
+bounds:651,593,182,192
+rotate:90
+Group 38 copy
+bounds:1359,150,151,125
+rotate:90
+Group 38
+bounds:1359,150,151,125
+rotate:90
+Group 39
+bounds:1316,457,121,149
+rotate:90
+Group 42
+bounds:621,379,90,211
+Group 45 copy 2
+bounds:1513,685,98,139
+Group 451
+bounds:1469,576,107,138
+rotate:90
+Group 49
+bounds:840,412,159,203
+rotate:90
+Group 50
+bounds:652,4,140,198
+Group 50 copy
+bounds:437,2,143,200
+Group 54
+bounds:1809,140,57,59
+Group 55
+bounds:1678,124,67,67
+Group 65
+bounds:1355,303,117,152
+Group 67
+bounds:1346,1043,108,144
+rotate:90
+Group 70
+bounds:901,8,113,208
+Group 73
+bounds:763,207,87,173
+Group 74
+bounds:903,959,226,166
+Group 78
+bounds:882,1127,121,252
+rotate:90
+Group 79
+bounds:1846,586,76,95
+Group 81
+bounds:1486,129,106,60
+Group 82
+bounds:1470,1305,93,73
+rotate:90
+Group 86 copy 2
+bounds:794,2,105,203
+Group 86 copy 3
+bounds:418,592,231,203
+Group 87
+bounds:1545,1412,130,247
+rotate:90
+Group 88
+bounds:2,1055,414,487
+Group 91
+bounds:322,145,113,419
+Group 94
+bounds:1686,1041,154,148
+Group 95
+bounds:1136,1082,125,208
+rotate:90
+Group 96 copy
+bounds:1842,1001,188,78
+rotate:90
+Group 98
+bounds:1122,455,114,192
+rotate:90
+Layer 100
+bounds:1606,375,90,100
+Layer 101
+bounds:1870,284,39,40
+Layer 101 copy 2
+bounds:1720,3,37,41
+Layer 101 copy 4
+bounds:1606,333,40,40
+Layer 101 copy
+bounds:1606,333,40,40
+Layer 101 copy 5
+bounds:1648,333,40,40
+Layer 102
+bounds:1873,326,43,38
+Layer 103
+bounds:2,22,289,64
+Layer 1071
+bounds:1045,412,74,137
+Layer 1072
+bounds:1655,834,77,130
+rotate:90
+Layer 1073
+bounds:1609,556,99,127
+Layer 1074
+bounds:1296,118,169,61
+rotate:90
+Layer 1077
+bounds:1579,193,88,138
+Layer 1078
+bounds:1662,699,97,133
+Layer 1080
+bounds:1842,881,118,78
+rotate:90
+Layer 1081
+bounds:1492,1101,120,192
+rotate:90
+Layer 1082
+bounds:1873,366,62,43
+rotate:90
+Layer 1083
+bounds:1698,333,62,41
+Layer 1084
+bounds:1669,193,76,58
+Layer 1085
+bounds:1492,1254,51,49
+Layer 1086
+bounds:1650,974,34,33
+Layer 1087
+bounds:1675,2,42,43
+rotate:90
+Layer 1088
+bounds:1789,415,82,79
+Layer 1089
+bounds:1809,201,64,55
+rotate:90
+Layer 1090
+bounds:1593,826,74,60
+rotate:90
+Layer 1091
+bounds:1747,201,63,60
+rotate:90
+Layer 117
+bounds:713,382,125,209
+Layer 119
+bounds:1140,5,110,187
+rotate:90
+Layer 127
+bounds:1491,902,157,105
+Layer 129
+bounds:1131,959,121,193
+rotate:90
+Layer 140
+bounds:1322,714,189,110
+Layer 141
+bounds:1016,19,197,122
+rotate:90
+Layer 170
+bounds:1148,1400,395,142
+Layer 32 copy
+bounds:1467,469,131,105
+Layer 36 copy
+bounds:1292,289,164,61
+rotate:90
+Layer 36 copy 2
+bounds:1326,971,163,70
+Layer 37
+bounds:1794,1350,127,192
+Layer 39
+bounds:322,4,113,139
+Layer 43
+bounds:1789,601,97,55
+rotate:90
+Layer 524
+bounds:1686,913,154,126
+Layer 526
+bounds:1315,580,152,132
+Layer 541
+bounds:1853,794,85,69
+rotate:90
+Layer 5411
+bounds:1853,794,85,69
+rotate:90
+Layer 552
+bounds:1600,477,77,130
+rotate:90
+Layer 553
+bounds:1492,1009,90,192
+rotate:90
+Layer 571
+bounds:1122,571,191,148
+Layer 573
+bounds:1523,15,109,112
+Layer 59
+bounds:1329,2,114,192
+rotate:90
+Layer 591
+bounds:2,566,414,487
+Layer 592
+bounds:1745,266,65,59
+rotate:90
+Layer 595
+bounds:418,797,279,306
+Layer 596
+bounds:1486,191,91,140
+Layer 5961
+bounds:1492,1223,29,30
+rotate:90
+Layer 597
+bounds:1787,833,53,78
+Layer 600
+bounds:1669,253,78,74
+rotate:90
+Layer 611
+bounds:293,63,23,23
+Layer 612
+bounds:1686,1193,28,33
+rotate:90
+Layer 712
+bounds:1148,1274,124,320
+rotate:90
+Layer 719
+bounds:1140,117,154,167
+Layer 719 copy
+bounds:1136,286,154,167
+Layer 904
+bounds:621,204,173,140
+rotate:90
+back
+bounds:1634,14,113,39
+rotate:90
+bongbay
+bounds:582,2,68,200
+bongbong
+bounds:1821,496,96,88
+choi
+bounds:1761,700,90,131
+con cho qua bong
+bounds:1853,683,109,65
+rotate:90
+gay
+bounds:1789,334,82,79
+hoa
+bounds:1873,430,48,64
+hop1
+bounds:1613,687,47,137
+hop2
+bounds:1698,376,89,99
+lacay
+bounds:1474,333,134,130
+rotate:90
+meo
+bounds:1806,267,62,65
+meo1
+bounds:1732,496,87,99
+meomay2
+bounds:1710,597,77,100
+nguoi
+bounds:699,777,103,201
+rotate:90
+onggia
+bounds:1739,1191,154,183
+rotate:90
+sach vo
+bounds:1331,826,143,149
+rotate:90
+tinh huong 1
+bounds:1675,46,75,76
+tinh huong 4
+bounds:903,848,265,109
+tinh huong 5
+bounds:1482,826,109,74

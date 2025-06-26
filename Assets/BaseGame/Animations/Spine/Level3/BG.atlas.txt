@@ -1,0 +1,281 @@
+BG.png
+size:2020,1828
+filter:Linear,Linear
+pma:true
+30_fishbone #73957
+bounds:2,336,433,351
+6_Octopus
+bounds:1922,288,89,95
+rotate:90
+6_Octopus1
+bounds:1502,41,89,95
+rotate:90
+Ball2
+bounds:1801,604,131,132
+Beach Ball
+bounds:1659,64,68,68
+Beach Duck Floatie
+bounds:1787,360,133,94
+Boat_2 copy
+bounds:2,689,578,369
+DOLPHIN
+bounds:1708,1065,150,157
+rotate:90
+Finn
+bounds:1472,2,39,37
+Group 1021
+bounds:1317,975,157,192
+rotate:90
+Group 126
+bounds:1511,810,149,172
+rotate:90
+Group 144
+bounds:1256,601,125,208
+Group 29
+bounds:925,156,157,104
+Group 292
+bounds:1084,165,157,104
+Group 36
+bounds:1407,463,128,168
+Group 45
+bounds:628,2,145,158
+rotate:90
+Group 45 copy
+bounds:1877,1215,249,110
+rotate:90
+Group 49
+bounds:1062,608,192,201
+Group 70
+bounds:1685,843,113,208
+rotate:90
+Group 94
+bounds:1243,811,154,148
+Guitarist 2
+bounds:1061,271,151,171
+rotate:90
+HueSaturation 4
+bounds:1537,1218,169,254
+HueSaturation 5
+bounds:1407,360,130,101
+HueSaturation 6
+bounds:2,1060,1023,766
+Kite
+bounds:2,113,221,333
+rotate:90
+Kite1
+bounds:1314,1134,221,333
+LIFEBOUY
+bounds:961,262,176,98
+rotate:90
+LIFEBOUY1
+bounds:961,262,176,98
+rotate:90
+LIFEBOUY11
+bounds:961,262,176,98
+rotate:90
+LIFEBOUY2
+bounds:961,262,176,98
+rotate:90
+LIFEBOUY3
+bounds:961,262,176,98
+rotate:90
+LIFEBOUY6
+bounds:961,262,176,98
+rotate:90
+LIFEBOUY4
+bounds:1383,633,176,98
+rotate:90
+LIFEBOUY5
+bounds:1383,633,176,98
+rotate:90
+LIFEBOUY7
+bounds:1383,633,176,98
+rotate:90
+Layer 120
+bounds:1256,426,149,173
+Layer 123
+bounds:1027,1096,285,371
+Layer 134
+bounds:1007,811,234,148
+Layer 140
+bounds:1517,1474,267,92
+Layer 146
+bounds:961,440,331,99
+rotate:90
+Layer 36
+bounds:788,4,143,172
+rotate:90
+Layer 40
+bounds:1483,636,143,172
+Layer 42
+bounds:582,773,285,423
+rotate:90
+Layer 50
+bounds:1511,961,114,192
+rotate:90
+Layer 504
+bounds:1660,275,122,128
+Layer 546
+bounds:1783,128,107,116
+rotate:90
+Layer 625
+bounds:1828,1582,180,244
+Layer 712
+bounds:603,149,124,320
+rotate:90
+Layer 92
+bounds:1708,1217,167,255
+Picniclady01
+bounds:1877,1466,141,114
+Picniclady011
+bounds:1895,788,123,168
+SHORTS
+bounds:1786,1494,89,72
+Seagul04
+bounds:1915,239,81,47
+Seagull #136924
+bounds:1729,63,63,69
+rotate:90
+Seagull #1369241
+bounds:1800,63,63,69
+rotate:90
+Seal01
+bounds:1922,379,91,96
+rotate:90
+Selfie-Stick
+bounds:1381,2,71,89
+rotate:90
+Shark
+bounds:1934,593,143,83
+rotate:90
+Shark1
+bounds:1243,180,142,83
+Ship #71655
+bounds:1804,4,58,57
+SmallFishGroup
+bounds:437,331,356,164
+rotate:90
+SmallFishGroup1
+bounds:1705,958,226,105
+SmallFishGroup2
+bounds:337,137,264,192
+SmallFishGroup3
+bounds:337,2,289,133
+SmallFishGroup4
+bounds:1027,961,288,133
+SmallFishGroup5
+bounds:603,607,356,164
+SmallFishGroup6
+bounds:1517,1568,309,258
+SmallFishGroup7
+bounds:603,441,356,164
+SmallFishGroup8
+bounds:603,275,356,164
+StripeyFish
+bounds:1376,75,124,57
+Sunscreen
+bounds:1933,961,42,56
+rotate:90
+Suntanned tourist1
+bounds:1302,265,101,159
+Suntanned tourist1_hand
+bounds:1660,227,121,46
+Suntanned tourist3
+bounds:1106,9,140,154
+Surfboard #13286
+bounds:1405,240,133,118
+Surfboard #132861
+bounds:1540,245,133,118
+rotate:90
+Swim-glasses
+bounds:1726,7,76,54
+Tourist #24477
+bounds:1784,237,121,129
+rotate:90
+Tourist #244771
+bounds:1387,134,104,143
+rotate:90
+Tripod_Area04 #58209
+bounds:1879,738,48,95
+rotate:90
+Underpants-Flag
+bounds:256,2,66,109
+Unicorn-float
+bounds:1921,472,119,91
+rotate:90
+VolleyPlayer01
+bounds:1628,619,171,117
+VolleyPlayer031
+bounds:1989,1269,195,27
+rotate:90
+Wanted_Char_15_Snowboarder
+bounds:1062,424,192,182
+Wanted_Char_34_Photographer #31528
+bounds:962,7,142,147
+Wanted_Char_48_Photographer #30561
+bounds:2,2,109,160
+rotate:90
+Wanted_Char_49_Photographer
+bounds:1619,405,91,166
+rotate:90
+Wanted_Char_5_Tourist
+bounds:1619,498,119,166
+rotate:90
+Wanted_Char_6_WhiteSeal1
+bounds:1537,1077,139,169
+rotate:90
+Watermelon #52833
+bounds:1659,2,65,60
+Watermelon #63484
+bounds:1628,749,59,52
+rotate:90
+White Bird by Camden Locks
+bounds:1729,164,50,61
+White Fish
+bounds:1532,132,106,91
+rotate:90
+William1
+bounds:1787,456,132,146
+Wiper
+bounds:1685,738,103,192
+rotate:90
+Woman with Guitar
+bounds:1867,1065,148,151
+rotate:90
+blink
+bounds:1248,52,126,126
+chest #10737
+bounds:1625,134,102,91
+guitar
+bounds:1234,273,149,66
+rotate:90
+lobster
+bounds:164,2,90,109
+lobster1
+bounds:1901,126,90,109
+megaphone #54540
+bounds:1539,380,86,72
+rotate:90
+not1
+bounds:1729,128,34,40
+rotate:90
+not2
+bounds:1991,961,27,42
+rubber duck  #69155
+bounds:1871,68,58,56
+rubber duck  #691551
+bounds:1871,68,58,56
+stella
+bounds:1399,824,110,149
+stella hand
+bounds:1248,7,131,43
+swimming buoy
+bounds:1537,468,166,80
+rotate:90
+turtle #62798
+bounds:1933,1005,85,58
+turtle #627981
+bounds:1599,45,85,58
+rotate:90
+underwater filter
+bounds:1027,1469,488,357

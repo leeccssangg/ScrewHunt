@@ -1,0 +1,14 @@
+6_DuChe.png
+size:428,248
+filter:Linear,Linear
+Layer 537 copy
+bounds:241,125,121,171
+rotate:90
+Trent
+bounds:241,2,121,142
+rotate:90
+chanoche
+bounds:385,44,79,39
+rotate:90
+oche
+bounds:2,2,237,244

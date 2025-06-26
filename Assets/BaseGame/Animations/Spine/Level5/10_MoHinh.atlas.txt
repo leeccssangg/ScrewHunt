@@ -1,0 +1,16 @@
+10_MoHinh.png
+size:780,296
+filter:Linear,Linear
+Collectables_Area01_Extinguisher copy 4
+bounds:454,5,58,104
+rotate:90
+FestChief
+bounds:640,127,129,165
+Foldable-Chair copy
+bounds:640,25,100,135
+rotate:90
+caydan
+bounds:454,65,227,184
+rotate:90
+zGuitarist1
+bounds:2,2,450,290

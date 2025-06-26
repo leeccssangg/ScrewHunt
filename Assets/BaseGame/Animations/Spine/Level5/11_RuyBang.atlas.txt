@@ -1,0 +1,61 @@
+11_RuyBang.png
+size:1832,1080
+filter:Linear,Linear
+Abigail1
+bounds:1622,328,127,162
+Ann1
+bounds:1361,122,124,175
+Clara1
+bounds:1673,780,132,157
+rotate:90
+Emre1
+bounds:1676,914,138,163
+FestBlonde copy2
+bounds:1529,789,126,142
+rotate:90
+Group 111
+bounds:1361,655,135,195
+Group 114 copy
+bounds:1361,852,166,225
+Layer 46
+bounds:2,3,1074,1357
+rotate:90
+Maggie1
+bounds:1498,659,128,171
+rotate:90
+Man2
+bounds:1671,655,123,151
+rotate:90
+Picniclady011
+bounds:1491,483,97,170
+Policeman copy
+bounds:1590,492,138,161
+Seb1
+bounds:1730,511,89,142
+Stella
+bounds:1666,13,133,151
+Tourist #24477 copy1
+bounds:1361,477,128,176
+Tourist #244777
+bounds:1361,299,128,176
+VolleyPlayer012
+bounds:1529,917,145,160
+VolleyPlayer033
+bounds:1491,314,129,167
+Wanted_Char_30_Leslie #336431
+bounds:1509,16,104,152
+rotate:90
+Wanted_Char_48_Photographer #30561
+bounds:1666,166,109,160
+Wanted_Char_49_Photographer1
+bounds:1573,146,91,166
+Wanted_Char_59_Darko #993543
+bounds:1487,122,84,175
+char
+bounds:1361,2,118,146
+rotate:90
+cot2
+bounds:1751,361,42,148
+mieng1
+bounds:1777,316,43,41
+rotate:90

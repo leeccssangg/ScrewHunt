@@ -1,0 +1,21 @@
+1_DaDieu.png
+size:396,532
+filter:Linear,Linear
+pma:true
+lv2_ Guy Fawkes
+bounds:230,347,161,183
+lv2_Adventurer
+bounds:240,67,146,143
+lv2_Group 128
+bounds:230,212,133,158
+rotate:90
+lv2_Group 1281
+bounds:95,166,116,136
+lv2_Group 1286
+bounds:95,304,133,226
+lv2_Group 129
+bounds:2,2,90,245
+lv2_Layer 511
+bounds:2,249,91,281
+lv2_ani_characters_0
+bounds:94,16,144,148

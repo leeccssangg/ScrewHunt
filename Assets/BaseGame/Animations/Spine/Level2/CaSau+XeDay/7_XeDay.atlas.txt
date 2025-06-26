@@ -1,0 +1,11 @@
+7_XeDay.png
+size:304,212
+filter:Linear,Linear
+pma:true
+lv2_Group 50 copy
+bounds:2,7,143,200
+lv2_Group 65
+bounds:147,90,117,152
+rotate:90
+lv2_Running-Viscacha
+bounds:147,2,95,86

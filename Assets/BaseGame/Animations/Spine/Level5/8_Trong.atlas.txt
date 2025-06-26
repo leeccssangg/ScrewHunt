@@ -1,0 +1,13 @@
+8_Trong.png
+size:416,236
+filter:Linear,Linear
+Group 4
+bounds:2,2,264,229
+Group 5
+bounds:268,72,143,159
+tay11
+bounds:358,5,27,65
+tay22
+bounds:387,11,25,59
+trong
+bounds:268,14,88,56

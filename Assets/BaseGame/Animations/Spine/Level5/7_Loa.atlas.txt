@@ -1,0 +1,77 @@
+7_Loa.png
+size:1860,1036
+filter:Linear,Linear
+Bouquet
+bounds:1331,382,79,92
+Collectables_Area01_Extinguisher
+bounds:1480,94,58,104
+Confetti_10
+bounds:1426,649,20,73
+Confetti_11
+bounds:1817,261,26,113
+Confetti_12
+bounds:534,2,24,78
+rotate:90
+Confetti_2
+bounds:478,2,23,23
+Confetti_5
+bounds:362,2,23,114
+rotate:90
+Confetti_6
+bounds:614,2,24,78
+rotate:90
+Confetti_7
+bounds:694,2,24,25
+rotate:90
+Confetti_8
+bounds:503,2,23,23
+Confetti_9
+bounds:2,2,18,18
+Flag02 copy
+bounds:1314,80,164,118
+Flag02 copy 3
+bounds:2,22,189,141
+Group 1 copy 2
+bounds:898,724,603,310
+Group 11
+bounds:481,206,203,828
+Group 122
+bounds:686,224,210,810
+Group 6 copy 4
+bounds:1503,619,354,415
+Group 6 copy 7
+bounds:898,217,257,431
+rotate:90
+Group 6 copy 8
+bounds:1426,376,241,428
+rotate:90
+Group 7 copy 2
+bounds:767,5,210,229
+rotate:90
+Keyboard_1
+bounds:534,28,176,231
+rotate:90
+Layer 38 copy 2
+bounds:1314,25,53,205
+rotate:90
+area2 violinist
+bounds:193,14,149,167
+rotate:90
+cheloa
+bounds:2,165,477,869
+cheloa2
+bounds:898,476,246,526
+rotate:90
+loa11
+bounds:1575,148,240,226
+loa12
+bounds:362,27,136,170
+rotate:90
+loa13
+bounds:998,46,169,216
+rotate:90
+loa14
+bounds:1331,200,242,174
+slash
+bounds:1216,36,179,96
+rotate:90

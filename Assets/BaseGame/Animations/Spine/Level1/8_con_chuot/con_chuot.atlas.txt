@@ -1,0 +1,22 @@
+con_chuot.png
+size:340,528
+filter:Linear,Linear
+pma:true
+Group 14
+bounds:2,130,150,215
+rotate:90
+Layer 116
+bounds:219,175,119,187
+Layer 118
+bounds:219,14,159,98
+rotate:90
+Layer 625
+bounds:2,282,180,244
+chuot
+bounds:169,21,107,46
+rotate:90
+miengcong
+bounds:2,2,165,126
+napcong
+bounds:184,364,162,130
+rotate:90

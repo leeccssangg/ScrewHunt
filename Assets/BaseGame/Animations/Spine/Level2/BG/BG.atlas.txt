@@ -1,0 +1,107 @@
+BG.png
+size:1768,796
+filter:Linear,Linear
+pma:true
+Group 70
+bounds:427,2,113,208
+rotate:90
+Group 95
+bounds:427,117,125,208
+Group 98
+bounds:738,177,114,192
+Layer 625
+bounds:838,377,180,244
+rotate:90
+Layer 712
+bounds:1077,670,124,320
+rotate:90
+bankem
+bounds:1083,102,112,205
+rotate:90
+bongbay
+bounds:1310,357,68,200
+do
+bounds:854,128,86,227
+rotate:90
+gay
+bounds:1674,112,82,79
+lv2_Group 120
+bounds:1059,216,191,148
+lv2_Group 36
+bounds:554,177,182,192
+lv2_Group 49
+bounds:854,216,159,203
+rotate:90
+lv2_Group 94
+bounds:1613,640,154,148
+rotate:90
+lv2_Julie
+bounds:1452,38,123,149
+lv2_Layer 133
+bounds:2,327,547,467
+lv2_Layer 210
+bounds:2,40,285,423
+rotate:90
+lv2_Layer 23 copy
+bounds:788,132,52,43
+lv2_Layer 26
+bounds:554,117,72,58
+lv2_Layer 590
+bounds:551,371,285,423
+lv2_Layer 650
+bounds:1380,346,108,161
+rotate:90
+lv2_Layer 651
+bounds:1543,311,108,161
+lv2_Layer 652
+bounds:1084,366,191,224
+rotate:90
+lv2_Layer 653
+bounds:1653,299,101,171
+lv2_Layer 654
+bounds:1655,472,111,166
+lv2_Layer 655
+bounds:1350,252,92,174
+rotate:90
+lv2_Layer 656
+bounds:637,2,149,173
+lv2_Layer 657
+bounds:1399,641,153,212
+rotate:90
+lv2_Layer 658
+bounds:1536,474,117,164
+lv2_Picnic Blanket
+bounds:1577,29,100,74
+lv2_Picnicbasket
+bounds:1679,32,78,78
+lv2_Running-Viscacha
+bounds:1577,105,95,86
+lv2_Tourist #24477
+bounds:1617,193,104,143
+rotate:90
+lv2_clown3 #54694
+bounds:788,7,119,194
+rotate:90
+lv2_pigeon2
+bounds:984,16,96,110
+lv2_pigeon21
+bounds:1252,245,96,110
+lv2_pigeon22
+bounds:1252,245,96,110
+lv2_snack guy #48035
+bounds:1290,73,114,160
+rotate:90
+lv2_tinh huong 4
+bounds:1077,559,265,109
+onggia
+bounds:1380,456,154,183
+tim
+bounds:1536,193,79,116
+vang
+bounds:1350,189,61,184
+rotate:90
+xanh
+bounds:1082,22,78,182
+rotate:90
+xekem
+bounds:838,559,237,235

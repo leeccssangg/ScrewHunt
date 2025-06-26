@@ -1,0 +1,19 @@
+4_BienDolar.png
+size:784,176
+filter:Linear,Linear
+pma:true
+13. Bag of Money #77960
+bounds:676,66,108,103
+rotate:90
+Layer 154 copy
+bounds:2,2,172,325
+rotate:90
+Security1
+bounds:329,2,133,172
+Sheriff
+bounds:464,25,120,149
+Signal
+bounds:676,5,59,53
+rotate:90
+man2
+bounds:586,25,88,149

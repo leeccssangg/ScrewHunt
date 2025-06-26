@@ -1,0 +1,12 @@
+1_Berger.png
+size:972,424
+filter:Linear,Linear
+pma:true
+Group 118
+bounds:2,2,431,419
+Group 742
+bounds:435,20,401,308
+rotate:90
+car crashed
+bounds:745,22,399,223
+rotate:90

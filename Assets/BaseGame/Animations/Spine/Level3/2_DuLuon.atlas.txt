@@ -1,0 +1,21 @@
+2_DuLuon.png
+size:1400,860
+filter:Linear,Linear
+pma:true
+Layer 107
+bounds:1048,173,284,147
+rotate:90
+Layer 126
+bounds:2,2,1044,854
+Layer 127
+bounds:1259,690,138,166
+Layer 97
+bounds:1259,522,138,166
+day
+bounds:1048,459,397,209
+rotate:90
+jetski
+bounds:1048,3,246,168
+jetski1
+bounds:1197,211,246,168
+rotate:90

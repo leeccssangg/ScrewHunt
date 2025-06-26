@@ -1,0 +1,12 @@
+5_Drone.png
+size:328,124
+filter:Linear,Linear
+canh1
+bounds:190,15,84,48
+canh3
+bounds:190,65,82,54
+cnah2
+bounds:276,35,84,48
+rotate:90
+drone copy
+bounds:2,2,186,117

@@ -1,0 +1,17 @@
+12_Denchieusankhau.png
+size:656,788
+filter:Linear,Linear
+1
+bounds:2,437,358,346
+2
+bounds:2,71,364,340
+rotate:90
+3
+bounds:344,42,310,369
+4
+bounds:362,413,283,370
+chancau
+bounds:70,32,67,37
+quacau
+bounds:2,2,67,66
+rotate:90

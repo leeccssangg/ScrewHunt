@@ -1,0 +1,267 @@
+BG.png
+size:2020,1220
+filter:Linear,Linear
+11 - Rock Poster copy 2
+bounds:1770,21,94,62
+14_PizzaSlice
+bounds:1866,21,71,62
+25. Slushie
+bounds:1677,368,44,80
+rotate:90
+7_Eaten apple
+bounds:1936,86,63,67
+rotate:90
+Abigail copy
+bounds:597,353,127,162
+Abigail
+bounds:597,353,127,162
+Ann
+bounds:813,171,124,175
+Bag
+bounds:1939,14,71,70
+Big Camera
+bounds:1889,323,101,109
+rotate:90
+Businessman
+bounds:1101,185,104,147
+rotate:90
+CHAR switch 1
+bounds:1422,727,120,183
+rotate:90
+Camera #40007
+bounds:1563,566,85,159
+Camera #40007 copy
+bounds:1222,528,68,163
+rotate:90
+Clara
+bounds:1243,10,132,157
+Clara copy
+bounds:1109,26,132,157
+Collectables_Area01_Extinguisher copy 2
+bounds:1783,373,58,104
+rotate:90
+Collectables_Area01_Extinguisher copy 5
+bounds:1783,373,58,104
+rotate:90
+Collectables_Area03_Skateboard
+bounds:1899,579,117,85
+Disco-Ball
+bounds:1643,871,71,95
+Disco-Ball3
+bounds:1643,871,71,95
+Emre copy
+bounds:590,2,129,167
+Emre copy2
+bounds:590,2,129,167
+FestBlonde
+bounds:1549,368,126,142
+FestBlonde3
+bounds:1549,368,126,142
+FestBlonde copy5
+bounds:1758,736,126,142
+rotate:90
+FestBlonde4
+bounds:1543,224,126,142
+FestCakeSlice2 copy
+bounds:1625,20,77,68
+rotate:90
+FestChief1
+bounds:1396,596,129,165
+rotate:90
+FestDog261
+bounds:1137,378,99,79
+rotate:90
+Flag02
+bounds:1232,733,188,142
+Flag02 copy 2
+bounds:1250,169,128,143
+Group 1
+bounds:1511,1082,136,205
+rotate:90
+Group 114 copy
+bounds:886,746,166,225
+Group 140 copy 7
+bounds:1067,1101,117,442
+rotate:90
+Group 142
+bounds:1766,587,131,147
+Group 3
+bounds:1718,1042,203,176
+Group 6 copy 2
+bounds:2,311,323,406
+Group 6
+bounds:2,311,323,406
+Group 6 copy
+bounds:2,311,323,406
+Group 70
+bounds:1716,927,113,208
+rotate:90
+Group 9 copy
+bounds:647,973,418,245
+Group 9 copy 2
+bounds:1695,85,137,104
+rotate:90
+Group 9
+bounds:1695,85,137,104
+rotate:90
+Jennifer copy
+bounds:724,548,160,186
+Jennifer
+bounds:724,548,160,186
+Layer 537
+bounds:726,348,140,198
+Layer 539
+bounds:1261,877,114,192
+rotate:90
+Layer 539 copy
+bounds:1067,877,114,192
+rotate:90
+Layer 63
+bounds:1695,2,81,73
+rotate:90
+Layer 712
+bounds:471,397,124,320
+Layer 74
+bounds:2,40,239,269
+Layer 79
+bounds:1885,237,84,99
+rotate:90
+Layer 86
+bounds:331,82,87,88
+rotate:90
+Love-Letter1
+bounds:886,512,66,55
+Man
+bounds:1542,99,123,151
+rotate:90
+Man1
+bounds:1889,426,123,151
+Mic #425161
+bounds:1892,128,42,107
+Mini-Camera1
+bounds:1532,2,91,95
+Picniclady01
+bounds:886,569,175,169
+rotate:90
+Policeman
+bounds:1386,372,138,161
+rotate:90
+Seb copy
+bounds:1801,85,89,142
+Seb copy 2
+bounds:1671,224,89,142
+Security copy 2
+bounds:1222,598,133,172
+rotate:90
+Security
+bounds:1222,598,133,172
+rotate:90
+Security copy 3
+bounds:1222,598,133,172
+rotate:90
+Sheriff
+bounds:1607,727,120,149
+rotate:90
+Thief_03
+bounds:1902,666,115,153
+Tourist #24477 copy 2
+bounds:1054,747,128,176
+rotate:90
+Tourist #24477 copy1
+bounds:1054,747,128,176
+rotate:90
+Tourist #24477 copy 34
+bounds:868,348,105,162
+Tourist #24477 copy 42
+bounds:1222,421,105,162
+rotate:90
+Tourist #24477 copy 56
+bounds:1650,568,114,157
+Tourist #244775
+bounds:1218,314,105,161
+rotate:90
+Trent1
+bounds:1762,229,121,142
+VolleyPlayer01
+bounds:975,332,145,160
+rotate:90
+VolleyPlayer011
+bounds:939,185,145,160
+rotate:90
+VolleyPlayer03
+bounds:983,23,124,160
+VolleyPlayer031
+bounds:721,2,129,167
+VolleyPlayer032
+bounds:852,2,129,167
+Wanted_Char_11_Schoolboy
+bounds:1057,479,89,163
+rotate:90
+Wanted_Char_14_Granny
+bounds:597,517,125,200
+Wanted_Char_18_IPSman
+bounds:1381,228,142,160
+rotate:90
+Wanted_Char_30_Leslie #33643
+bounds:1783,433,104,152
+Wanted_Char_30_Leslie #33643 copy
+bounds:1677,414,104,152
+Wanted_Char_48_Photographer #305611
+bounds:1380,117,109,160
+rotate:90
+Wanted_Char_49_Photographer
+bounds:1926,902,91,166
+Wanted_Char_53_Singer #120680
+bounds:1387,512,82,173
+rotate:90
+Wanted_Char_56_Larry #150006
+bounds:1377,6,109,153
+rotate:90
+Wanted_Char_59_Darko #99354
+bounds:648,171,163,175
+Wanted_Char_59_Darko #993542
+bounds:1057,570,163,175
+ani_characters_0
+bounds:331,171,196,201
+area2 police1
+bounds:529,171,117,180
+bankem
+bounds:1509,968,112,205
+rotate:90
+canh1
+bounds:1562,516,84,48
+canh3
+bounds:954,513,82,54
+characters_0
+bounds:1923,1070,95,148
+cnah2
+bounds:1936,151,84,48
+rotate:90
+co1
+bounds:327,374,142,343
+cot111
+bounds:1067,993,106,440
+rotate:90
+do
+bounds:243,82,86,227
+drone copy
+bounds:1455,849,186,117
+generator copy 2
+bounds:427,2,167,161
+rotate:90
+mic #54350
+bounds:1137,291,85,79
+rotate:90
+raso
+bounds:2,719,643,499
+tim
+bounds:1902,821,79,116
+rotate:90
+vang
+bounds:1716,864,61,184
+rotate:90
+xanh
+bounds:243,2,78,182
+rotate:90
+xekem
+bounds:647,736,237,235

@@ -1,0 +1,50 @@
+9_Den.png
+size:2012,584
+filter:Linear,Linear
+Camera Charge Hub
+bounds:1933,352,133,69
+rotate:90
+Disco-Ball2
+bounds:1933,487,71,95
+Flag02 copy 4
+bounds:155,36,190,142
+Group 1 copy
+bounds:1198,28,210,810
+rotate:90
+Group 1 copy 3
+bounds:343,209,373,337
+rotate:90
+Group 10 copy
+bounds:402,6,201,603
+rotate:90
+Group 10
+bounds:402,6,201,603
+rotate:90
+Group 6 copy 3
+bounds:2,180,402,339
+rotate:90
+Group 6 copy 5
+bounds:2,180,402,339
+rotate:90
+Group 6 copy 6
+bounds:1466,252,323,330
+Group 7 copy 3
+bounds:682,240,782,342
+Guitarist 2
+bounds:2,7,151,171
+Guitarist1
+bounds:1007,9,229,189
+rotate:90
+Laptop #55485
+bounds:1791,476,106,140
+rotate:90
+Layer 38 copy 2
+bounds:347,2,53,205
+Layer 78
+bounds:1791,253,93,97
+Love-Letter
+bounds:1791,354,66,55
+rotate:90
+Mic #42516
+bounds:1791,422,52,135
+rotate:90

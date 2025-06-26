@@ -1,0 +1,10 @@
+dog1_cautruot.png
+size:124,68
+filter:Linear,Linear
+pma:true
+concho1
+bounds:72,3,60,47
+rotate:90
+cuacautruot
+bounds:2,2,61,68
+rotate:90

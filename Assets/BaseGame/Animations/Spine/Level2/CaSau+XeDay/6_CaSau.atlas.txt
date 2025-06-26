@@ -1,0 +1,24 @@
+6_CaSau.png
+size:372,544
+filter:Linear,Linear
+pma:true
+blink
+bounds:213,30,126,126
+ca1
+bounds:251,352,189,118
+rotate:90
+ca2
+bounds:2,19,205,82
+rotate:90
+ca3
+bounds:86,2,125,63
+khucgo2
+bounds:2,387,247,154
+lv2_Ellipse 5
+bounds:86,67,157,95
+rotate:90
+lv2_Group 102
+bounds:207,158,157,192
+lv2_Group 491
+bounds:2,226,159,203
+rotate:90

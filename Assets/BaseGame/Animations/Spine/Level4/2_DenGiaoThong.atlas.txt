@@ -1,0 +1,54 @@
+2_DenGiaoThong.png
+size:1148,496
+filter:Linear,Linear
+pma:true
+14. Boots
+bounds:1013,261,50,114
+rotate:90
+Collectables_Area04_Generator
+bounds:916,2,126,121
+Group 105
+bounds:618,293,200,186
+rotate:90
+Group 1052
+bounds:618,293,200,186
+rotate:90
+Group 1051
+bounds:618,91,200,186
+rotate:90
+Group 1053
+bounds:618,91,200,186
+rotate:90
+Group 122
+bounds:916,313,180,206
+rotate:90
+Group 75
+bounds:2,8,614,485
+Inspector
+bounds:983,125,123,155
+rotate:90
+Layer 90
+bounds:806,125,117,175
+rotate:90
+Mini-Camera
+bounds:1044,33,90,95
+rotate:90
+Wanted_Char_30_Leslie #33643
+bounds:806,341,104,152
+dne gt
+bounds:618,19,70,296
+rotate:90
+do
+bounds:1124,421,23,19
+rotate:90
+jackhammer
+bounds:903,250,61,108
+rotate:90
+tool-box
+bounds:806,244,95,95
+vanhg
+bounds:1124,472,21,22
+rotate:90
+xanh
+bounds:1124,446,24,19
+rotate:90

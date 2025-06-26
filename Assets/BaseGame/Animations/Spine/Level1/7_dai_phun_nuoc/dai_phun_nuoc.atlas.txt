@@ -1,0 +1,30 @@
+dai_phun_nuoc.png
+size:1604,516
+filter:Linear,Linear
+pma:true
+Group 31
+bounds:2,2,904,510
+Layer 23 copy
+bounds:1475,241,52,43
+rotate:90
+Layer 678
+bounds:908,29,290,264
+Layer 679
+bounds:1200,107,273,186
+Layer 680
+bounds:908,295,619,217
+Layer 681
+bounds:1200,47,72,58
+Layer 685
+bounds:1529,60,452,71
+rotate:90
+giotnuoc
+bounds:1404,74,19,31
+giotnuoc2
+bounds:1475,80,35,33
+rotate:90
+nuocchay1
+bounds:1475,117,40,122
+nuocchay2
+bounds:1274,66,39,128
+rotate:90

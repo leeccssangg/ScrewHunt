@@ -1,0 +1,19 @@
+5_XeBus.png
+size:748,624
+filter:Linear,Linear
+pma:true
+Cat_34
+bounds:631,138,139,78
+rotate:90
+Layer 52
+bounds:2,2,620,627
+rotate:90
+Layer 592
+bounds:631,8,75,128
+Layer 593
+bounds:631,279,78,148
+Layer 594
+bounds:711,407,21,20
+cua
+bounds:631,429,193,115
+rotate:90

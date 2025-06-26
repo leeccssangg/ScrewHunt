@@ -1,0 +1,14 @@
+8_boy.png
+size:280,156
+filter:Linear,Linear
+pma:true
+guitar
+bounds:175,4,149,66
+rotate:90
+lv2_Guitarist 2
+bounds:2,2,151,171
+rotate:90
+not1
+bounds:243,113,34,40
+not2
+bounds:243,69,27,42

@@ -1,0 +1,22 @@
+xe_dap.png
+size:564,264
+filter:Linear,Linear
+pma:true
+Group 4
+bounds:188,133,184,129
+Group 4 copy 2
+bounds:2,133,184,129
+Group 4 copy 3
+bounds:2,133,184,129
+Group 4 copy 4
+bounds:2,2,184,129
+Layer 659
+bounds:342,5,114,134
+rotate:90
+Layer 660
+bounds:374,121,141,146
+rotate:90
+banhxedap
+bounds:478,36,83,83
+xedaprach
+bounds:188,6,152,125

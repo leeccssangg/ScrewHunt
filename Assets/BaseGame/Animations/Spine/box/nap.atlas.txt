@@ -1,0 +1,6 @@
+nap.png
+size:464,504
+filter:Linear,Linear
+pma:true
+1_6_intro_nap
+bounds:2,2,460,499

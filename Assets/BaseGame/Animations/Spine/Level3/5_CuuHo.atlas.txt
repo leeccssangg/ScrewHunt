@@ -1,0 +1,27 @@
+5_CuuHo.png
+size:840,184
+filter:Linear,Linear
+pma:true
+LIFEBOUY8
+bounds:613,3,176,98
+rotate:90
+Layer 85
+bounds:2,12,167,255
+rotate:90
+William
+bounds:479,33,132,146
+chan1
+bounds:479,2,29,130
+rotate:90
+chan2
+bounds:789,47,50,44
+rotate:90
+chan3
+bounds:789,99,80,46
+rotate:90
+geh2
+bounds:259,14,165,218
+rotate:90
+phao1
+bounds:713,5,174,74
+rotate:90

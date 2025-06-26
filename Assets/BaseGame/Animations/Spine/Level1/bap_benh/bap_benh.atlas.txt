@@ -1,0 +1,16 @@
+bap_benh.png
+size:240,312
+filter:Linear,Linear
+pma:true
+Group 36 copy
+bounds:92,115,87,139
+rotate:90
+Group 36 copy 2
+bounds:92,204,105,145
+rotate:90
+Group 43
+bounds:2,2,307,88
+rotate:90
+Layer 1079
+bounds:92,19,94,88
+rotate:90

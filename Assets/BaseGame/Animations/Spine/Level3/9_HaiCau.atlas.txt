@@ -1,0 +1,12 @@
+9_HaiCau.png
+size:212,260
+filter:Linear,Linear
+pma:true
+Pink Mer
+bounds:2,100,156,197
+rotate:90
+haicau
+bounds:2,2,155,96
+quabong
+bounds:159,44,54,51
+rotate:90

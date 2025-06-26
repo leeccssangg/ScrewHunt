@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0bb613dae2338ef4a9edec017dbfa256, type: 3}
+  m_Name: SpritesGlobalConfig
+  m_EditorClassIdentifier: 
+  ScrewSprites:
+  - ColorId: 0
+    ScrewSprite: {fileID: 21300000, guid: 0f8b6e6f1c153bf43b8816480d6dddaa, type: 3}
+  - ColorId: 1
+    ScrewSprite: {fileID: 21300000, guid: 473020df7396dbc4bb2e2c9074c674d6, type: 3}
+  - ColorId: 11
+    ScrewSprite: {fileID: 21300000, guid: 5925f30a2885b3041a137bb0a6d040ea, type: 3}
+  - ColorId: 3
+    ScrewSprite: {fileID: 21300000, guid: 303e85d95774f544ba4e507113c3bc8a, type: 3}
+  - ColorId: 8
+    ScrewSprite: {fileID: 21300000, guid: c4337e0adc5ef45428caece6108f032b, type: 3}
+  - ColorId: 9
+    ScrewSprite: {fileID: 21300000, guid: 65347dcc84607934aa5a26b1201bf4dc, type: 3}
+  - ColorId: 7
+    ScrewSprite: {fileID: 21300000, guid: 5574ea6d7bb56cf46a027efe3a822ddf, type: 3}
+  BoxSprites:
+  - ColorId: 0
+    BoxMainSprite: {fileID: 21300000, guid: f851c4f5dcbab60469678d6f7cf817c0, type: 3}
+    BoxCoverSprite: {fileID: 21300000, guid: 81ef177bd2857c44eb6388de67cd4937, type: 3}
+  - ColorId: 1
+    BoxMainSprite: {fileID: 21300000, guid: dec551e31b8c54243b3d81b6a9f66216, type: 3}
+    BoxCoverSprite: {fileID: 21300000, guid: 44f81a7fa087b184ab4ba8db85faf891, type: 3}
+  - ColorId: 11
+    BoxMainSprite: {fileID: 21300000, guid: b6e0f9c0534f12848bdba79f1feed47e, type: 3}
+    BoxCoverSprite: {fileID: 21300000, guid: 6a7e15a244e430f47be43fe90d2f3645, type: 3}
+  - ColorId: 3
+    BoxMainSprite: {fileID: 21300000, guid: e64639c7691ed2c4b9575038f5efccc5, type: 3}
+    BoxCoverSprite: {fileID: 21300000, guid: 7517004ee5179b24b871d46013f4f0c0, type: 3}
+  - ColorId: 8
+    BoxMainSprite: {fileID: 21300000, guid: 71cde2212f7fc19478c9f67b11dc3b83, type: 3}
+    BoxCoverSprite: {fileID: 21300000, guid: 4969bc2e040ea14499ea96f90980b733, type: 3}
+  - ColorId: 9
+    BoxMainSprite: {fileID: 21300000, guid: b35092b4e2df95c4bb3724e5e9a6f36a, type: 3}
+    BoxCoverSprite: {fileID: 21300000, guid: e9f0a27ce89f41b4fa8cf609be171e00, type: 3}
+  - ColorId: 7
+    BoxMainSprite: {fileID: 21300000, guid: 328b61e1341b72241adc912d1ceda907, type: 3}
+    BoxCoverSprite: {fileID: 21300000, guid: f1b0abae3e7e1cd438be0c3e6871d58d, type: 3}
+  ScrewEffectSprites:
+  - ColorId: 0
+    ScrewEffectSprite: {fileID: 21300000, guid: 5a2be62e641048243988fb2c9a9ff57a, type: 3}
+  - ColorId: 1
+    ScrewEffectSprite: {fileID: 21300000, guid: cacaa785ec30ea64f9528954394ecfd2, type: 3}
+  - ColorId: 11
+    ScrewEffectSprite: {fileID: 21300000, guid: 5727f39db4dca1b4891e75e6c7f77c9f, type: 3}
+  - ColorId: 8
+    ScrewEffectSprite: {fileID: 21300000, guid: 52a9338c1a48dcd429a1228cf8ecbaf8, type: 3}
+  - ColorId: 3
+    ScrewEffectSprite: {fileID: 21300000, guid: 155de80111d1ab74eb08a03a02ba6f58, type: 3}
+  - ColorId: 9
+    ScrewEffectSprite: {fileID: 21300000, guid: 409c48a3029ff5d41940d56f801eab32, type: 3}
+  - ColorId: 7
+    ScrewEffectSprite: {fileID: 21300000, guid: 3cb97fa9e8768d246a2f52beed9ace50, type: 3}

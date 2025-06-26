@@ -1,0 +1,27 @@
+3_Khi.png
+size:336,552
+filter:Linear,Linear
+pma:true
+Lv2_bodykhi
+bounds:138,10,96,104
+rotate:90
+Lv2_tay
+bounds:260,486,44,61
+khucgo
+bounds:2,108,245,141
+rotate:90
+lv2_Group 36 copy 6
+bounds:2,355,182,192
+lv2_Layer 206
+bounds:244,2,106,79
+rotate:90
+lv2_Layer 207
+bounds:2,7,134,99
+lv2_Layer 208
+bounds:145,109,92,244
+lv2_Layer 526
+bounds:186,356,72,191
+lv2_Layer 534
+bounds:239,110,92,244
+lv2_tay2
+bounds:260,423,44,61

@@ -1,0 +1,12 @@
+1_QuaBong.png
+size:228,140
+filter:Linear,Linear
+pma:true
+Ball1
+bounds:2,3,131,132
+Layer 114
+bounds:135,2,133,30
+rotate:90
+xihoi
+bounds:167,61,74,58
+rotate:90

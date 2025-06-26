@@ -1,0 +1,15 @@
+4_ThuyenGo.png
+size:620,428
+filter:Linear,Linear
+pma:true
+Boat_3
+bounds:2,83,343,368
+rotate:90
+Group 102
+bounds:372,12,157,192
+rotate:90
+Layer 141
+bounds:2,2,328,79
+buom
+bounds:372,171,255,244
+rotate:90

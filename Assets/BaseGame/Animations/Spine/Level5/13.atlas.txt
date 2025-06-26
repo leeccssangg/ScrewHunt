@@ -1,0 +1,6 @@
+13.png
+size:356,420
+filter:Linear,Linear
+pma:true
+zz
+bounds:2,2,352,413

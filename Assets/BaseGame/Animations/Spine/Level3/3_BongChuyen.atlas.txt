@@ -1,0 +1,28 @@
+3_BongChuyen.png
+size:928,452
+filter:Linear,Linear
+pma:true
+Layer 38
+bounds:2,2,445,444
+rotate:90
+Layer 39
+bounds:617,235,33,212
+Layer 92
+bounds:448,192,167,255
+Suntanned tourist2
+bounds:652,286,124,161
+Voleyball
+bounds:652,198,86,86
+VolleyPlayer011
+bounds:778,287,145,160
+VolleyPlayer03
+bounds:656,4,124,160
+VolleyPlayer032
+bounds:782,4,124,160
+Wanted_Char_38_Penelope #33202
+bounds:778,166,119,145
+rotate:90
+Wanted_Char_59_Darko #99354
+bounds:448,15,84,175
+Wanted_Char_5_Tourist1
+bounds:534,24,120,166

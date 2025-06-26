@@ -1,0 +1,14 @@
+4_Micro.png
+size:164,272
+filter:Linear,Linear
+FestFreddie
+bounds:57,127,103,140
+Layer 38 copy 2
+bounds:2,62,53,205
+Mic #425161
+bounds:2,2,42,107
+rotate:90
+mic #54350
+bounds:57,46,85,79
+micro
+bounds:111,10,28,34

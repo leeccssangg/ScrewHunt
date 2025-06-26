@@ -1,0 +1,13 @@
+3_CuaNha.png
+size:592,320
+filter:Linear,Linear
+back
+bounds:378,198,117,209
+rotate:90
+canha2
+bounds:2,13,302,374
+rotate:90
+canhcua
+bounds:503,2,87,194
+mantronnha
+bounds:378,40,123,156

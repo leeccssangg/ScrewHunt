@@ -1,0 +1,314 @@
+BG.png
+size:2036,1816
+filter:Linear,Linear
+pma:true
+10_Trash
+bounds:817,1356,95,54
+10_Trash1
+bounds:817,1356,95,54
+11 - Rock Poster
+bounds:1386,88,59,77
+13. Bag of Money #77960
+bounds:681,2,108,103
+22_Comic #77000
+bounds:1871,89,47,64
+3. Sandals
+bounds:1189,360,67,51
+Ann
+bounds:1650,419,109,155
+rotate:90
+Balloon01_Balloon2
+bounds:1505,1549,142,265
+Basketball
+bounds:1805,155,91,92
+rotate:90
+Bin1
+bounds:1724,307,80,110
+Bin2
+bounds:1724,307,80,110
+Birds-Nest
+bounds:1634,87,89,91
+rotate:90
+Boy on Unicycle
+bounds:1507,1122,77,166
+rotate:90
+Businessman
+bounds:791,2,104,147
+rotate:90
+CHAR switch 1
+bounds:1384,876,120,183
+Cat_19
+bounds:1383,584,133,117
+rotate:90
+Cat_25 #90195
+bounds:260,3,101,71
+rotate:90
+Chair
+bounds:1492,454,92,156
+rotate:90
+Child07
+bounds:996,1444,107,370
+Clara
+bounds:1502,548,133,158
+rotate:90
+Collectables_Area01_Sandsack
+bounds:1108,215,79,196
+Cool Seagull_1 #18466
+bounds:333,4,90,100
+Cooler #19159
+bounds:1634,8,77,89
+rotate:90
+Corgi #64698
+bounds:929,110,96,103
+Crowbar #55273
+bounds:1806,248,76,109
+rotate:90
+Cyclist_1
+bounds:1450,20,182,241
+Emily
+bounds:1507,990,130,165
+rotate:90
+Extinguisher
+bounds:755,1355,55,60
+rotate:90
+Flyer #52627
+bounds:1727,89,47,70
+rotate:90
+Flyer #526271
+bounds:1799,89,47,70
+rotate:90
+Fries #24203
+bounds:1725,10,69,75
+Group 11
+bounds:1128,739,83,129
+rotate:90
+Group 114
+bounds:1649,1570,180,244
+Group 119
+bounds:1066,824,316,370
+Group 36
+bounds:1811,424,182,192
+rotate:90
+Group 71 copy
+bounds:2,106,510,509
+rotate:90
+Group 73
+bounds:513,214,402,283
+rotate:90
+Group 74
+bounds:686,1412,402,308
+rotate:90
+Group 741
+bounds:798,215,401,308
+rotate:90
+Group 76
+bounds:2,618,560,486
+rotate:90
+Group 902
+bounds:663,618,128,150
+rotate:90
+Group 903
+bounds:1675,1151,115,150
+rotate:90
+Group 97
+bounds:478,1355,206,459
+Group 98
+bounds:675,107,105,82
+rotate:90
+Group 99
+bounds:1831,1582,232,203
+rotate:90
+Group 991
+bounds:1027,6,230,207
+Group 992
+bounds:1027,6,230,207
+Group 993
+bounds:1831,1262,236,202
+rotate:90
+Guitarist 2
+bounds:1827,1079,181,205
+rotate:90
+HOTDOG #79048
+bounds:995,1196,383,214
+Jennifer
+bounds:1507,1201,142,166
+rotate:90
+Layer 105
+bounds:2,1180,634,474
+rotate:90
+Layer 106
+bounds:839,794,386,225
+rotate:90
+Layer 109
+bounds:1422,1470,81,344
+Layer 162
+bounds:686,1355,67,55
+Maggie
+bounds:490,618,128,171
+rotate:90
+Metro Card
+bounds:839,755,37,53
+rotate:90
+Mini-Camera1
+bounds:1917,233,91,95
+rotate:90
+Paper_airplane
+bounds:1796,13,74,50
+rotate:90
+Phonebox
+bounds:1380,1205,125,249
+Pillar Box
+bounds:914,1184,79,226
+Plastic Bag
+bounds:1731,138,70,70
+Policeman
+bounds:1675,1023,126,147
+rotate:90
+Policeman1
+bounds:1674,895,126,147
+rotate:90
+Robin #64910
+bounds:940,2,70,65
+Running Viscacha
+bounds:1259,503,127,115
+rotate:90
+Seb
+bounds:1671,804,89,142
+rotate:90
+Seb1
+bounds:1671,713,89,142
+rotate:90
+Security
+bounds:478,1181,133,172
+Termos #18231
+bounds:940,69,39,83
+rotate:90
+Theatre Poster
+bounds:1506,683,63,160
+rotate:90
+Tourist
+bounds:1128,644,93,128
+rotate:90
+Tourist #24477
+bounds:2,2,102,140
+rotate:90
+Traffic Sign
+bounds:1920,143,88,89
+rotate:90
+Traffic Sign1
+bounds:1920,143,88,89
+rotate:90
+Traffic Sign #63786
+bounds:1831,1500,80,203
+rotate:90
+Trent
+bounds:1384,1061,121,142
+Wanted_Char_12_Mommy #32721
+bounds:1506,748,163,240
+Wanted_Char_14_Granny
+bounds:1259,22,125,200
+Wanted_Char_19_Rapper #100252
+bounds:1507,1345,109,167
+rotate:90
+Wanted_Char_42_Grandpa #123190
+bounds:1108,413,81,136
+rotate:90
+Wanted_Char_53_Singer #120680
+bounds:1374,233,74,156
+Wanted_Char_57_Grandpa #151532
+bounds:1384,719,120,155
+Water Bottles
+bounds:1731,210,72,95
+Wiper
+bounds:1824,967,110,205
+rotate:90
+ani_characters_0
+bounds:1823,769,196,201
+rotate:90
+area01_newspaper
+bounds:1634,178,95,48
+area01_paperbag
+bounds:1634,228,77,95
+rotate:90
+area1 ladder
+bounds:1815,608,159,201
+rotate:90
+area2 police2
+bounds:513,107,105,160
+rotate:90
+baby cart
+bounds:1687,1379,142,189
+bagia
+bounds:1668,530,141,181
+characters_0
+bounds:1189,224,85,134
+characters_22
+bounds:1376,391,114,191
+characters_33
+bounds:1128,496,146,127
+rotate:90
+characters_44 #38364
+bounds:1259,369,113,132
+dog3 #48655
+bounds:144,3,101,114
+rotate:90
+earphones #53924
+bounds:1386,15,71,58
+rotate:90
+golf car
+bounds:1105,1456,315,358
+green_bike01
+bounds:613,1182,171,153
+rotate:90
+instant-ramen
+bounds:1386,167,60,64
+man1
+bounds:768,1182,118,171
+man3
+bounds:490,8,96,189
+rotate:90
+man4
+bounds:1259,632,122,190
+man5
+bounds:1492,263,132,189
+man6
+bounds:1676,1268,109,153
+rotate:90
+man7
+bounds:1505,1456,91,180
+rotate:90
+newsie #71952
+bounds:815,618,128,146
+rotate:90
+pigeon2
+bounds:1276,257,96,110
+pigeon23
+bounds:1276,257,96,110
+pigeon24
+bounds:1276,257,96,110
+pigeon21
+bounds:1626,307,96,110
+pigeon22
+bounds:1626,307,96,110
+pigeon25
+bounds:1807,326,96,110
+rotate:90
+pigeon26
+bounds:1919,326,96,110
+rotate:90
+pigeon27
+bounds:1919,326,96,110
+rotate:90
+racing bike
+bounds:963,623,163,169
+segway_granpa
+bounds:759,108,104,168
+rotate:90
+squirrel #51216
+bounds:1848,22,65,63
+rotate:90
+swat_car01
+bounds:490,748,347,431
+vantruot
+bounds:425,6,98,63
+rotate:90

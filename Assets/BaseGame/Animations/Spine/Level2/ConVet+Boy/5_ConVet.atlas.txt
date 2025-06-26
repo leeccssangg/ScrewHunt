@@ -1,0 +1,19 @@
+5_ConVet.png
+size:580,984
+filter:Linear,Linear
+pma:true
+canhchim
+bounds:2,914,68,91
+rotate:90
+lv2_Group 34
+bounds:2,2,576,517
+lv2_Layer 659
+bounds:383,827,155,156
+rotate:90
+lv2_PAROT
+bounds:95,904,78,144
+rotate:90
+thanchim
+bounds:241,861,140,121
+zoo
+bounds:2,521,561,304

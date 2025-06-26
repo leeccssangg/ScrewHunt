@@ -1,0 +1,44 @@
+7_Phao.png
+size:1816,776
+filter:Linear,Linear
+pma:true
+15. Sun Hat
+bounds:1084,111,221,131
+rotate:90
+Ann
+bounds:1491,178,109,154
+Ball
+bounds:1358,200,131,132
+Balloon01_Balloon2
+bounds:1669,506,142,265
+Balloon05
+bounds:1669,287,137,217
+Group 129
+bounds:2,9,843,762
+Group 291
+bounds:1625,28,157,104
+rotate:90
+Head_2 #50873
+bounds:847,2,74,72
+rotate:90
+Layer 132
+bounds:847,334,820,437
+Layer 133
+bounds:1353,16,143,145
+Layer 139
+bounds:847,78,254,235
+rotate:90
+Layer 140
+bounds:1084,17,267,92
+Layer 545
+bounds:1731,73,81,112
+Suntanned tourist
+bounds:1498,42,125,134
+Wanted_Char_6_WhiteSeal
+bounds:1217,163,139,169
+characters_1
+bounds:1602,187,98,168
+rotate:90
+xihoi
+bounds:921,2,74,58
+rotate:90

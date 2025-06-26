@@ -1,0 +1,15 @@
+tru_nuoc.png
+size:184,296
+filter:Linear,Linear
+pma:true
+chim dau
+bounds:100,19,70,50
+chimbay
+bounds:100,71,94,81
+rotate:90
+naptru
+bounds:2,2,62,32
+nuoc
+bounds:2,36,96,256
+trunuoc
+bounds:100,167,79,125

@@ -1,0 +1,46 @@
+1_ThungBia.png
+size:836,300
+filter:Linear,Linear
+Cooler
+bounds:2,3,86,116
+Cooler #56383
+bounds:90,21,86,98
+Emre
+bounds:420,133,138,163
+FestBlonde1
+bounds:479,5,126,142
+rotate:90
+Maggie
+bounds:290,125,128,171
+Seb
+bounds:275,33,89,142
+rotate:90
+Security copy
+bounds:155,124,133,172
+Wanted_Char_59_Darko #993541
+bounds:2,121,151,175
+beer #11231 copy 2
+bounds:419,48,58,75
+beer #11231 copy 21
+bounds:760,86,58,75
+beer #11231
+bounds:760,86,58,75
+beer #11231 copy
+bounds:760,86,58,75
+beer #112311
+bounds:760,9,58,75
+beer-bottle
+bounds:234,27,39,95
+beer-bottle copy 3
+bounds:178,26,54,96
+beer_barrel
+bounds:560,147,149,138
+rotate:90
+bot
+bounds:419,2,44,49
+rotate:90
+thungbia1
+bounds:700,163,133,132
+rotate:90
+thungbia2
+bounds:623,9,135,136

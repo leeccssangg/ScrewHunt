@@ -1,0 +1,9 @@
+2_ConCho.png
+size:352,236
+filter:Linear,Linear
+FestDog26
+bounds:268,135,99,79
+rotate:90
+hangrao
+bounds:2,2,232,264
+rotate:90

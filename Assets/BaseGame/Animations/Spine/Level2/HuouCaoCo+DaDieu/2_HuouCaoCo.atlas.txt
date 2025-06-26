@@ -1,0 +1,17 @@
+2_HuouCaoCo.png
+size:1308,320
+filter:Linear,Linear
+pma:true
+cao
+bounds:1060,4,100,137
+rotate:90
+lv2_FarmPass_Char_Broom
+bounds:853,2,102,205
+rotate:90
+lv2_Group 121
+bounds:2,24,440,292
+lv2_Group 1211
+bounds:444,6,310,407
+rotate:90
+vungnuoc
+bounds:853,106,452,210

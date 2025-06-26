@@ -1,0 +1,24 @@
+8_BanKem.png
+size:848,240
+filter:Linear,Linear
+pma:true
+bankem
+bounds:415,32,112,205
+do
+bounds:529,151,86,227
+rotate:90
+kem1
+bounds:241,27,172,210
+soft-serve ice cream
+bounds:715,44,75,130
+rotate:90
+tim
+bounds:758,121,79,116
+vang
+bounds:529,8,61,184
+rotate:90
+xanh
+bounds:529,71,78,182
+rotate:90
+xekem
+bounds:2,2,237,235

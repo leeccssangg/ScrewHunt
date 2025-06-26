@@ -1,0 +1,15 @@
+6_TenCuop.png
+size:596,244
+filter:Linear,Linear
+pma:true
+Burglar_1
+bounds:291,2,175,145
+Layer 163
+bounds:2,149,93,590
+rotate:90
+Thief_02
+bounds:2,38,109,132
+rotate:90
+Thief_03
+bounds:136,32,115,153
+rotate:90

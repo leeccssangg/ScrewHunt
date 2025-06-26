@@ -1,0 +1,25 @@
+4_Panda.png
+size:440,596
+filter:Linear,Linear
+pma:true
+Group 86 copy 3
+bounds:2,169,231,203
+Layer 524
+bounds:2,13,154,126
+rotate:90
+choi
+bounds:130,36,90,131
+lv2_Group 125
+bounds:282,461,133,154
+rotate:90
+lv2_Group 1251
+bounds:282,326,133,154
+rotate:90
+lv2_Group 1252
+bounds:235,2,187,217
+lv2_Group 1261
+bounds:2,374,220,278
+rotate:90
+nguoi
+bounds:235,221,103,201
+rotate:90

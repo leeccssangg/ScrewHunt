@@ -1,0 +1,14 @@
+3_VitcaoSu.png
+size:612,880
+filter:Linear,Linear
+pma:true
+Layer 45
+bounds:2,367,510,509
+Layer 560
+bounds:360,47,248,318
+Wanted_Char_11_Schoolboy
+bounds:514,745,72,131
+vit
+bounds:2,2,356,363
+vit2
+bounds:514,687,58,56

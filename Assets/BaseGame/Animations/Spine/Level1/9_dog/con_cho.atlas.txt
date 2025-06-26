@@ -1,0 +1,21 @@
+con_cho.png
+size:196,436
+filter:Linear,Linear
+pma:true
+Layer 58
+bounds:2,302,130,190
+rotate:90
+Layer 62
+bounds:2,85,104,117
+rotate:90
+cho sua 1
+bounds:2,7,96,76
+concho9
+bounds:2,191,165,109
+conchotha
+bounds:121,77,69,109
+daycho
+bounds:169,188,112,25
+rotate:90
+heart
+bounds:100,2,76,73

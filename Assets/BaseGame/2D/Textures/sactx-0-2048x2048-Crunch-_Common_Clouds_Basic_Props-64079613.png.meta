@@ -1,0 +1,756 @@
+fileFormatVersion: 2
+guid: 52714432a0676ec40aaee4c274711435
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 4096
+    resizeAlgorithm: 1
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1752
+        width: 429
+        height: 296
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486843d0ada53514a8e5091a7fd87bb4
+      internalID: 3555995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_1
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 1734
+        width: 486
+        height: 228
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ecfb92881bf4104791f3eaf014a8810
+      internalID: 116510155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_2
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 1956
+        width: 30
+        height: 36
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56446b8cd7875eb4e9864844a01e4b26
+      internalID: 385147904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1206
+        width: 580
+        height: 282
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f2dcf50d7251e46b0ac713643400b2
+      internalID: -1185666831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1470
+        width: 18
+        height: 6
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6132c577692e4db4585caf79989b1dab
+      internalID: 1202406528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1440
+        width: 887
+        height: 314
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78f2f803fb2668443a7e8e76e5adfc4f
+      internalID: -561670379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_6
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 1434
+        width: 6
+        height: 5
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d64c3d995356db74384f1d3aab91ad48
+      internalID: -1590463623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 402
+        width: 828
+        height: 816
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad762762626876c4f91873c142878718
+      internalID: 1233017179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_8
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 852
+        width: 360
+        height: 509
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 349d9aa8dde87d341be5594e86c1f10e
+      internalID: 1061194895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_9
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 1020
+        width: 30
+        height: 12
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae8af48c054757d49b2221f89d99fd94
+      internalID: 1702251598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_10
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 659
+        width: 17
+        height: 25
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a59639625745c51449754fca9eaedd7d
+      internalID: 1674093194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_11
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 663
+        width: 5
+        height: 5
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ce5987bb5165554a9eca8544ca9cf69
+      internalID: 329552474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_12
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 539
+        width: 195
+        height: 119
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4e1070664c1103449a2ee64d59dcc3a
+      internalID: 2026582732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_13
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 656
+        width: 18
+        height: 4
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ace5636e8b461418338fca891c9db3
+      internalID: -1834577363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_14
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 656
+        width: 18
+        height: 4
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49e012dc81dcfcf4aa355b90b3163b4c
+      internalID: -1402619467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_15
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 393
+        width: 176
+        height: 153
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4c27aaa4444fd4cb577d949ee80267
+      internalID: 2012180202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_16
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 518
+        width: 6
+        height: 10
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7eabca80f0635b4cb56faf4aa3464f4
+      internalID: -400350347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_17
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 442
+        width: 30
+        height: 8
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48e943b502e5afe4bb070982a53bc75d
+      internalID: -351261207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 822
+        height: 432
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ae2b04784524e4492023ce23f79107
+      internalID: -1843029945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_19
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 401
+        width: 21
+        height: 13
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 925a5608fc2b1de43932aabe7f4ca5ad
+      internalID: 1417223034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_20
+      rect:
+        serializedVersion: 2
+        x: 992
+        y: 404
+        width: 4
+        height: 8
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e60338334e51e2b41a33356813c1739d
+      internalID: -1739752994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_21
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 245
+        width: 340
+        height: 155
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b683e6a6d0367894596fae814352f88c
+      internalID: 525564311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_22
+      rect:
+        serializedVersion: 2
+        x: 1086
+        y: 398
+        width: 18
+        height: 4
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82a076996049abd41958f71f9bc37e01
+      internalID: 307844290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_23
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 281
+        width: 30
+        height: 13
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e465377f662ff342bca4afeda8888d2
+      internalID: 691459818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_24
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 0
+        width: 305
+        height: 252
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fda75a85d024686429660533b3cb82b4
+      internalID: 1062571007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_25
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 0
+        width: 306
+        height: 240
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120653545f0be4b4bb86a2abdcf87ec4
+      internalID: -151400662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_26
+      rect:
+        serializedVersion: 2
+        x: 1242
+        y: 234
+        width: 6
+        height: 30
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee42b0f9dddd5744db453fbe5e5c77f5
+      internalID: -1552426193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_27
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 0
+        width: 27
+        height: 39
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a32ebf27e81fcf4282df89448288e6e
+      internalID: -1774010481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 7153bfb187c56b8479c3f539739b5147
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_0: 3555995
+      sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_1: 116510155
+      sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_10: 1674093194
+      sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_11: 329552474
+      sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_12: 2026582732
+      sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_13: -1834577363
+      sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_14: -1402619467
+      sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_15: 2012180202
+      sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_16: -400350347
+      sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_17: -351261207
+      sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_18: -1843029945
+      sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_19: 1417223034
+      sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_2: 385147904
+      sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_20: -1739752994
+      sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_21: 525564311
+      sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_22: 307844290
+      sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_23: 691459818
+      sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_24: 1062571007
+      sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_25: -151400662
+      sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_26: -1552426193
+      sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_27: -1774010481
+      sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_3: -1185666831
+      sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_4: 1202406528
+      sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_5: -561670379
+      sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_6: -1590463623
+      sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_7: 1233017179
+      sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_8: 1061194895
+      sactx-0-2048x2048-Crunch-_Common_Clouds_Basic_Props-64079613_9: 1702251598
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
