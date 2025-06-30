@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using Cysharp.Threading.Tasks;
 using R3;
+using Sirenix.OdinInspector;
 using Spine.Unity;
 using TW.Reactive.CustomComponent;
 using TW.Utility.CustomComponent;
@@ -56,6 +58,7 @@ public class SelectableObject : ACachedMonoBehaviour
             OnRemoveAllScrews();
         }
     }
+    [Button]
     public void RemoveScrew(Screw screw)
     {
         if (Screws.Contains(screw))
@@ -64,6 +67,7 @@ public class SelectableObject : ACachedMonoBehaviour
             screw.OnRemoveScrew();
             DecreaseScrewCount();
             PlayRemoveScrewAnimation();
+            
         }
     }
     public bool TryRemoveScrew(out ColorId colorId)
@@ -86,9 +90,10 @@ public class SelectableObject : ACachedMonoBehaviour
             CurrentScrewCount.Value--;
         }
     }
-    private void OnRemoveAllScrews()
+    private void  OnRemoveAllScrews()
     {
         //this.gameObject.SetActive(false);
+        //await UniTask.WaitForSeconds(1.3f);
         PlayRemoveAllScrewsAnimation();
     }
     public Vector3 GetCurrentScrewPosition()
@@ -122,6 +127,17 @@ public class SelectableObject : ACachedMonoBehaviour
         {
             Screws[i].Init(this);
         }
+    }
+    [Button]
+    public void PlayAnimation(int index)
+    {
+        if (Animation == null) return;
+        string firstAction = "action" + (index);
+        string secondAction = "action" + (index + 1);
+        Animation.AnimationState.SetAnimation(index, firstAction, false).Complete += (trackEntry) =>
+        {
+            Animation.AnimationState.SetAnimation(index, secondAction, true);
+        };
     }
 #endif
 }

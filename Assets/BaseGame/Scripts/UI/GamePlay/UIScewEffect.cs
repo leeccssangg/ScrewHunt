@@ -11,7 +11,7 @@ public class UIScewEffect : ACachedMonoBehaviour
     [field: SerializeField] public UIScrewBox UIScrewBox { get; private set; }
     private List<Tween> TweenList { get; set; } = new List<Tween>();
     [field: SerializeField] public Image ImgScrewIcon { get; private set; }
-    //[field: SerializeField] public ParticleImage UITrail { get; private set; }
+    [field: SerializeField] public ParticleImage UITrail { get; private set; }
     public void Setup(Vector3 startPos, Vector3 endPos, UIScrewBox uiScrewBox)
     {
         AudioManager.Instance.PlaySoundFx(AudioType.SfxPickupBlock);
@@ -19,24 +19,25 @@ public class UIScewEffect : ACachedMonoBehaviour
         Transform.localScale = Vector3.one;
         ImgScrewIcon.sprite = SpritesGlobalConfig.Instance.GetScrewEffectSprite(UIScrewBox.ScrewBox.ColorId);
         //ColorUtil.SetColorToImage(this.ImgScrewIcon, UIScrewBox.ScrewBox.ColorId);
-        Vector3 randomPos = new Vector3(UnityEngine.Random.Range(-50f, 50f), UnityEngine.Random.Range(-50f, 50f), 0);
+        //Vector3 randomPos = new Vector3(UnityEngine.Random.Range(-250f, 250f), UnityEngine.Random.Range(-250f, 250f), 0);
         // float randomDelay = UnityEngine.Random.Range(0f, 0.5f);
         // TweenList.Add(Transform.DOScale(Vector3.one * 1.5f, 0.5f).SetEase(Ease.OutBack).SetDelay(0.5f));
         // TweenList.Add(Transform.DOMove(startPos + randomPos , 0.5f).SetEase(Ease.InOutSine).SetDelay(0.5f));
         // TweenList.Add(Transform.DOMove(endPos, 0.5f).SetEase(Ease.InOutSine).SetDelay(0.5f));
+        Vector3 randomPos = new Vector3(-250f, 250f, 0);
         Tween tween =
             Transform.DOMove(startPos + randomPos, 0.5f).SetEase(Ease.InOutSine)
                 .OnStart(() =>
                 {
-                    //UITrail.Stop();
+                    UITrail.Stop();
                 })
                 .OnComplete(() =>
                 {
-                    Transform.DOMove(endPos, 0.5f).SetEase(Ease.InOutSine)
+                    Transform.DOMove(endPos, 0.5f).SetEase(Ease.InOutSine).SetDelay(0.65f)
                         .OnStart(() =>
                         {
-                            // UITrail.gameObject.SetActive(true);
-                            // UITrail.Play();
+                            UITrail.gameObject.SetActive(true);
+                            UITrail.Play();
                         })
                         .OnComplete(() =>
                     {
@@ -70,11 +71,11 @@ public class UIScewEffect : ACachedMonoBehaviour
     }
     public void DeactiveTrail()
     {
-        // if (UITrail != null)
-        // {
-        //     UITrail.gameObject.SetActive(false);
-        //     UITrail.Stop();
-        // }
+        if (UITrail != null)
+        {
+            UITrail.gameObject.SetActive(false);
+            UITrail.Stop();
+        }
     }
 }
 

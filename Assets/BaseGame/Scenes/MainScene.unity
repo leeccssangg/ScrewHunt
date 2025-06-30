@@ -1305,6 +1305,11 @@ Transform:
   - {fileID: 1136399018}
   - {fileID: 1885831277}
   - {fileID: 388915453}
+  - {fileID: 1120468169}
+  - {fileID: 495355049}
+  - {fileID: 1495912974}
+  - {fileID: 2022981247}
+  - {fileID: 623140834}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &214984860
@@ -1511,7 +1516,7 @@ PrefabInstance:
     - target: {fileID: 927268824343859713, guid: ee6240d7e6be6f94b8ae81c719c0ac40, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 9b407caa0783b104088ffc006970cb2e, type: 2}
+      objectReference: {fileID: 2100000, guid: e01519edb80bb5a4f905a623ac938f11, type: 2}
     - target: {fileID: 1325892812699338833, guid: ee6240d7e6be6f94b8ae81c719c0ac40, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -1787,7 +1792,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2157116528094623956, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
       propertyPath: m_Name
-      value: CameraController
+      value: CameraControllerLevel1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2157116528094623956, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1830,6 +1839,26 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: moveTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: zoomTime
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: timeWaitTap
+      value: 1.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: timeWaitZome
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
       propertyPath: <MainCamera>k__BackingField
       value: 
       objectReference: {fileID: 772578745}
@@ -1850,8 +1879,124 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1826485253}
     - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[0].camSize
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[1].camSize
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camSize
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camSize
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camSize
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camSize
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camSize
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[7].camSize
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[8].camSize
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[9].camSize
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[0].camPos.x
+      value: -6.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[1].camPos.y
+      value: 1.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camPos.x
+      value: -3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camPos.y
+      value: -4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camPos.x
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camPos.y
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camPos.x
+      value: 9.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camPos.y
+      value: 13.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camPos.x
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camPos.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camPos.x
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camPos.y
+      value: -16.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[7].camPos.x
+      value: 1.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[7].camPos.y
+      value: -10.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[8].camPos.x
+      value: 6.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[8].camPos.y
+      value: 14.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[9].camPos.x
+      value: -1.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[9].camPos.y
+      value: 2.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
       propertyPath: <ZoomRange>k__BackingField.m_Max
       value: 15.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <ZoomRange>k__BackingField.m_Min
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
       propertyPath: <MoveRangeX>k__BackingField.m_Max
@@ -1873,6 +2018,46 @@ PrefabInstance:
       propertyPath: <CameraFlexRotation>k__BackingField
       value: 
       objectReference: {fileID: 1272573334}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[0].camSizeScrew
+      value: 3.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[1].camSizeScrew
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camSizeScrew
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camSizeScrew
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camSizeScrew
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camSizeScrew
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camSizeScrew
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[7].camSizeScrew
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[8].camSizeScrew
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[9].camSizeScrew
+      value: 4.5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2571,6 +2756,332 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &495355048
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 214984859}
+    m_Modifications:
+    - target: {fileID: 2157116528094623956, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_Name
+      value: CameraControllerLevel3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2157116528094623956, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: moveTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: zoomTime
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: timeWaitTap
+      value: 1.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: timeWaitZome
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.size
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <MainCamera>k__BackingField
+      value: 
+      objectReference: {fileID: 772578745}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <ZoomAmount>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <ZoomTarget>k__BackingField
+      value: 15.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <CameraPivot>k__BackingField
+      value: 
+      objectReference: {fileID: 1245786380}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <RaycastCamera>k__BackingField
+      value: 
+      objectReference: {fileID: 1826485253}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[0].camSize
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[1].camSize
+      value: 6.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camSize
+      value: 8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camSize
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camSize
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camSize
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camSize
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[7].camSize
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[8].camSize
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[9].camSize
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[0].camPos.x
+      value: -5.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[0].camPos.y
+      value: -9.23
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[1].camPos.x
+      value: -10.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[1].camPos.y
+      value: -12.27
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camPos.x
+      value: 0.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camPos.y
+      value: -15.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camPos.x
+      value: 8.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camPos.y
+      value: 12.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camPos.x
+      value: 2.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camPos.y
+      value: 13.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camPos.x
+      value: -8.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camPos.y
+      value: 10.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camPos.x
+      value: 5.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camPos.y
+      value: -6.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[7].camPos.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[7].camPos.y
+      value: -3.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[8].camPos.x
+      value: 5.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[8].camPos.y
+      value: 3.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[9].camPos.x
+      value: -10.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[9].camPos.y
+      value: 2.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <ZoomRange>k__BackingField.m_Max
+      value: 15.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <ZoomRange>k__BackingField.m_Min
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <MoveRangeX>k__BackingField.m_Max
+      value: 10.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <MoveRangeX>k__BackingField.m_Min
+      value: -22.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <MoveRangeY>k__BackingField.m_Max
+      value: 10.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <MoveRangeY>k__BackingField.m_Min
+      value: -26.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[0].camSizeAnim
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[1].camSizeAnim
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camSizeAnim
+      value: 8.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camSizeAnim
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camSizeAnim
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camSizeAnim
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camSizeAnim
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[7].camSizeAnim
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[8].camSizeAnim
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <CameraFlexRotation>k__BackingField
+      value: 
+      objectReference: {fileID: 1272573334}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[0].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[1].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[7].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[8].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+--- !u!4 &495355049 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+  m_PrefabInstance: {fileID: 495355048}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &502414934
 GameObject:
   m_ObjectHideFlags: 0
@@ -2829,6 +3340,340 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &623140833
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 214984859}
+    m_Modifications:
+    - target: {fileID: 2157116528094623956, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_Name
+      value: CameraControllerCreative
+      objectReference: {fileID: 0}
+    - target: {fileID: 2157116528094623956, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: moveTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: zoomTime
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: timeWaitTap
+      value: 1.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: timeWaitZome
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <MainCamera>k__BackingField
+      value: 
+      objectReference: {fileID: 772578745}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <ZoomAmount>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <ZoomTarget>k__BackingField
+      value: 15.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <CameraPivot>k__BackingField
+      value: 
+      objectReference: {fileID: 1245786380}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <RaycastCamera>k__BackingField
+      value: 
+      objectReference: {fileID: 1826485253}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[0].camSize
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[1].camSize
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camSize
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camSize
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camSize
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camSize
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camSize
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[7].camSize
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[8].camSize
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[9].camSize
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[0].camPos.x
+      value: 4.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[0].camPos.y
+      value: 10.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[1].camPos.x
+      value: 7.97
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[1].camPos.y
+      value: 11.11
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camPos.x
+      value: 6.58
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camPos.y
+      value: 14.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camPos.x
+      value: 5.67
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camPos.y
+      value: 10.64
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camPos.x
+      value: -1.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camPos.y
+      value: 0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camPos.x
+      value: -1.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camPos.y
+      value: 0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camPos.x
+      value: -1.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camPos.y
+      value: 0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[7].camPos.x
+      value: -1.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[7].camPos.y
+      value: 0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[8].camPos.x
+      value: -1.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[8].camPos.y
+      value: 0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[9].camPos.x
+      value: -1.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[9].camPos.y
+      value: 0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <ZoomRange>k__BackingField.m_Max
+      value: 15.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <ZoomRange>k__BackingField.m_Min
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <MoveRangeX>k__BackingField.m_Max
+      value: 10.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <MoveRangeX>k__BackingField.m_Min
+      value: -22.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <MoveRangeY>k__BackingField.m_Max
+      value: 10.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <MoveRangeY>k__BackingField.m_Min
+      value: -26.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[0].camSizeAnim
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[1].camSizeAnim
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camSizeAnim
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camSizeAnim
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camSizeAnim
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camSizeAnim
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camSizeAnim
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[7].camSizeAnim
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[8].camSizeAnim
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[9].camSizeAnim
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <CameraFlexRotation>k__BackingField
+      value: 
+      objectReference: {fileID: 1272573334}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[0].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[1].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[7].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[8].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[9].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+--- !u!4 &623140834 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+  m_PrefabInstance: {fileID: 623140833}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &652233405
 GameObject:
   m_ObjectHideFlags: 0
@@ -3598,7 +4443,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 772578742}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5085,6 +5930,328 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1120468168
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 214984859}
+    m_Modifications:
+    - target: {fileID: 2157116528094623956, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_Name
+      value: CameraControllerLevel2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2157116528094623956, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: moveTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: zoomTime
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: timeWaitTap
+      value: 1.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: timeWaitZome
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: timeWaitZoomOutCam
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <MainCamera>k__BackingField
+      value: 
+      objectReference: {fileID: 772578745}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <ZoomAmount>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <ZoomTarget>k__BackingField
+      value: 15.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <CameraPivot>k__BackingField
+      value: 
+      objectReference: {fileID: 1245786380}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <RaycastCamera>k__BackingField
+      value: 
+      objectReference: {fileID: 1826485253}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[0].camSize
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[1].camSize
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camSize
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camSize
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camSize
+      value: 6.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camSize
+      value: 6.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camSize
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[7].camSize
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[8].camSize
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[9].camSize
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[0].camPos.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[0].camPos.y
+      value: 1.12
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[1].camPos.x
+      value: 10.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[1].camPos.y
+      value: -2.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camPos.x
+      value: 4.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camPos.y
+      value: -15.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camPos.x
+      value: -1.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camPos.y
+      value: 17.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camPos.x
+      value: 9.93
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camPos.y
+      value: 17.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camPos.x
+      value: -6.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camPos.y
+      value: -8.36
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camPos.x
+      value: -6.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camPos.y
+      value: 0.38
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[7].camPos.x
+      value: -1.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[7].camPos.y
+      value: 5.39
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[8].camPos.x
+      value: -10.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[8].camPos.y
+      value: 2.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[9].camPos.x
+      value: -10.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[9].camPos.y
+      value: 2.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <ZoomRange>k__BackingField.m_Max
+      value: 15.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <ZoomRange>k__BackingField.m_Min
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <MoveRangeX>k__BackingField.m_Max
+      value: 10.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <MoveRangeX>k__BackingField.m_Min
+      value: -22.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <MoveRangeY>k__BackingField.m_Max
+      value: 10.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <MoveRangeY>k__BackingField.m_Min
+      value: -26.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[0].camSizeAnim
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[1].camSizeAnim
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camSizeAnim
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camSizeAnim
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camSizeAnim
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camSizeAnim
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camSizeAnim
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[7].camSizeAnim
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <CameraFlexRotation>k__BackingField
+      value: 
+      objectReference: {fileID: 1272573334}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[0].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[1].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camSizeScrew
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[7].camSizeScrew
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+--- !u!4 &1120468169 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+  m_PrefabInstance: {fileID: 1120468168}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1136399018 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 9029609359172786057, guid: 17818968ecebc0e46accb5aeb062b9f0, type: 3}
@@ -5576,7 +6743,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1245786379}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -5694,7 +6861,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1272573333}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6476,6 +7643,316 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1495912973
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 214984859}
+    m_Modifications:
+    - target: {fileID: 2157116528094623956, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_Name
+      value: CameraControllerLevel4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2157116528094623956, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: moveTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: zoomTime
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: timeWaitTap
+      value: 1.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: timeWaitZome
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <MainCamera>k__BackingField
+      value: 
+      objectReference: {fileID: 772578745}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <ZoomAmount>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <ZoomTarget>k__BackingField
+      value: 15.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <CameraPivot>k__BackingField
+      value: 
+      objectReference: {fileID: 1245786380}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <RaycastCamera>k__BackingField
+      value: 
+      objectReference: {fileID: 1826485253}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[0].camSize
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[1].camSize
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camSize
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camSize
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camSize
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camSize
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camSize
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[7].camSize
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[8].camSize
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[9].camSize
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[0].camPos.x
+      value: 6.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[0].camPos.y
+      value: 2.06
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[1].camPos.x
+      value: 6.08
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[1].camPos.y
+      value: -2.78
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camPos.x
+      value: -5.24
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camPos.y
+      value: 12.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camPos.x
+      value: 3.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camPos.y
+      value: 12.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camPos.x
+      value: 8.32
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camPos.y
+      value: 12.82
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camPos.x
+      value: -6.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camPos.y
+      value: 2.81
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camPos.x
+      value: 4.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camPos.y
+      value: -14.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[7].camPos.x
+      value: 4.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[7].camPos.y
+      value: -0.73
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[8].camPos.x
+      value: 6.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[8].camPos.y
+      value: 3.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[9].camPos.x
+      value: -10.66
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[9].camPos.y
+      value: 2.86
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <ZoomRange>k__BackingField.m_Max
+      value: 15.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <ZoomRange>k__BackingField.m_Min
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <MoveRangeX>k__BackingField.m_Max
+      value: 10.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <MoveRangeX>k__BackingField.m_Min
+      value: -22.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <MoveRangeY>k__BackingField.m_Max
+      value: 10.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <MoveRangeY>k__BackingField.m_Min
+      value: -26.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[0].camSizeAnim
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[1].camSizeAnim
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camSizeAnim
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camSizeAnim
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camSizeAnim
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camSizeAnim
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camSizeAnim
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <CameraFlexRotation>k__BackingField
+      value: 
+      objectReference: {fileID: 1272573334}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[0].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[1].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+--- !u!4 &1495912974 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+  m_PrefabInstance: {fileID: 1495912973}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1504732878
 GameObject:
   m_ObjectHideFlags: 0
@@ -9330,6 +10807,340 @@ Transform:
   - {fileID: 467846307}
   m_Father: {fileID: 190310384}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2022981246
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 214984859}
+    m_Modifications:
+    - target: {fileID: 2157116528094623956, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_Name
+      value: CameraControllerLevel5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2157116528094623956, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: moveTime
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: zoomTime
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: timeWaitTap
+      value: 1.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: timeWaitZome
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.size
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <MainCamera>k__BackingField
+      value: 
+      objectReference: {fileID: 772578745}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <ZoomAmount>k__BackingField
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <ZoomTarget>k__BackingField
+      value: 15.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <CameraPivot>k__BackingField
+      value: 
+      objectReference: {fileID: 1245786380}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <RaycastCamera>k__BackingField
+      value: 
+      objectReference: {fileID: 1826485253}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[0].camSize
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[1].camSize
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camSize
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camSize
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camSize
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camSize
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camSize
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[7].camSize
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[8].camSize
+      value: 5.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[9].camSize
+      value: 4.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[0].camPos.x
+      value: 4.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[0].camPos.y
+      value: 10.04
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[1].camPos.x
+      value: 8.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[1].camPos.y
+      value: 7.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camPos.x
+      value: -6.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camPos.y
+      value: 5.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camPos.x
+      value: 9.87
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camPos.y
+      value: -2.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camPos.x
+      value: 4.15
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camPos.y
+      value: -12.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camPos.x
+      value: -5.61
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camPos.y
+      value: -6.52
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camPos.x
+      value: -3.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camPos.y
+      value: 3.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[7].camPos.x
+      value: -9.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[7].camPos.y
+      value: 8.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[8].camPos.x
+      value: -3.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[8].camPos.y
+      value: 10.91
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[9].camPos.x
+      value: -1.09
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[9].camPos.y
+      value: 0.17
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <ZoomRange>k__BackingField.m_Max
+      value: 15.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <ZoomRange>k__BackingField.m_Min
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <MoveRangeX>k__BackingField.m_Max
+      value: 10.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <MoveRangeX>k__BackingField.m_Min
+      value: -22.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <MoveRangeY>k__BackingField.m_Max
+      value: 10.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <MoveRangeY>k__BackingField.m_Min
+      value: -26.85
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[0].camSizeAnim
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[1].camSizeAnim
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camSizeAnim
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camSizeAnim
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camSizeAnim
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camSizeAnim
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camSizeAnim
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[7].camSizeAnim
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[8].camSizeAnim
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[9].camSizeAnim
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: <CameraFlexRotation>k__BackingField
+      value: 
+      objectReference: {fileID: 1272573334}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[0].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[1].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[2].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[3].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[4].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[5].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[6].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[7].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[8].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5230335705215570370, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+      propertyPath: CamStats.Array.data[9].camSizeScrew
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+--- !u!4 &2022981247 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3292251978229026378, guid: 4b745bc59c310914ba4fd1f5f914b7e7, type: 3}
+  m_PrefabInstance: {fileID: 2022981246}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2023665050
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9338,6 +11149,30 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1702675056}
     m_Modifications:
+    - target: {fileID: 91260651874117960, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 91260651874117960, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 91260651874117960, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 91260651874117960, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 91260651874117960, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 91260651874117960, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 245382672885239932, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -9386,6 +11221,30 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1888536574577877555, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1888536574577877555, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1888536574577877555, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1888536574577877555, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1888536574577877555, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1888536574577877555, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2469267202778495986, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -9434,6 +11293,34 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3212026582476760560, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 2025
+      objectReference: {fileID: 0}
+    - target: {fileID: 3552796123865310390, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3552796123865310390, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3552796123865310390, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3552796123865310390, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3552796123865310390, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3552796123865310390, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4074558534829532297, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
@@ -9455,6 +11342,54 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4074558534829532297, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315594039556807320, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315594039556807320, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315594039556807320, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315594039556807320, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315594039556807320, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5315594039556807320, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788227610656571929, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788227610656571929, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788227610656571929, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788227610656571929, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788227610656571929, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6788227610656571929, guid: 7409f30cead74eb4babc4755724d42d6, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
@@ -9728,6 +11663,75 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &1198631712763052104
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1583167880830726993, guid: b8e68997cdf8bbc4aaed5f2f8d73bc24, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3672157953561248411, guid: b8e68997cdf8bbc4aaed5f2f8d73bc24, type: 3}
+      propertyPath: m_Name
+      value: LevelCreativeHouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 3672157953561248411, guid: b8e68997cdf8bbc4aaed5f2f8d73bc24, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5109446363001509938, guid: b8e68997cdf8bbc4aaed5f2f8d73bc24, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974953428354311358, guid: b8e68997cdf8bbc4aaed5f2f8d73bc24, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974953428354311358, guid: b8e68997cdf8bbc4aaed5f2f8d73bc24, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974953428354311358, guid: b8e68997cdf8bbc4aaed5f2f8d73bc24, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974953428354311358, guid: b8e68997cdf8bbc4aaed5f2f8d73bc24, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974953428354311358, guid: b8e68997cdf8bbc4aaed5f2f8d73bc24, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974953428354311358, guid: b8e68997cdf8bbc4aaed5f2f8d73bc24, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974953428354311358, guid: b8e68997cdf8bbc4aaed5f2f8d73bc24, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974953428354311358, guid: b8e68997cdf8bbc4aaed5f2f8d73bc24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974953428354311358, guid: b8e68997cdf8bbc4aaed5f2f8d73bc24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7974953428354311358, guid: b8e68997cdf8bbc4aaed5f2f8d73bc24, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b8e68997cdf8bbc4aaed5f2f8d73bc24, type: 3}
 --- !u!1001 &1445329599072243108
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10307,6 +12311,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4531181018904403832, guid: 22a7ae829eb62474896eb53ab71c9e17, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5545640372273334007, guid: 22a7ae829eb62474896eb53ab71c9e17, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 6214734643260965789, guid: 22a7ae829eb62474896eb53ab71c9e17, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -10327,6 +12339,10 @@ PrefabInstance:
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 6836122cbaeb6174085b1d91d7444aac, type: 2}
+    - target: {fileID: 8980584043559338402, guid: 22a7ae829eb62474896eb53ab71c9e17, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 9032977901588359462, guid: 22a7ae829eb62474896eb53ab71c9e17, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -10397,3 +12413,4 @@ SceneRoots:
   - {fileID: 5086977406464834093}
   - {fileID: 5588487648757521806}
   - {fileID: 7587184304889806577}
+  - {fileID: 1198631712763052104}

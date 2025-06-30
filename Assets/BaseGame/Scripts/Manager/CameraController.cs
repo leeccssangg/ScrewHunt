@@ -1,6 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Cysharp.Threading.Tasks;
+using DG.Tweening;
+using Sirenix.OdinInspector;
 using TW.Utility.CustomType;
 using TW.Utility.DesignPattern;
 using UnityEngine;
@@ -58,11 +61,11 @@ public class CameraController : Singleton<CameraController>
         m_Plane = new Plane(Vector3.forward, new Vector3(0, 0, 20));
         m_NewPosition = CameraPivot.position;
     }
-    private void Update()
-    {
-        HandleMouseInput();
-        MoveCamera();
-    }
+    // private void Update()
+    // {
+    //     HandleMouseInput();
+    //     MoveCamera();
+    // }
 
     public void ResetLevelCamera()
     {
@@ -175,7 +178,7 @@ public class CameraController : Singleton<CameraController>
         if (Input.mouseScrollDelta.y != 0)
         {
             IsZooming = true;
-            float size = MainCamera.orthographicSize - Input.mouseScrollDelta.y * 5;
+            float size = MainCamera.orthographicSize - Input.mouseScrollDelta.y * 8f;
             SetCameraSize(size);
         }
     }
@@ -293,5 +296,77 @@ public class CameraController : Singleton<CameraController>
 
         return interactObject;
     }
+
+    #region Creatives
+
+    public List<SelectableObject> ListSelectableObjects = new();
+    public List<CreativeCamStat> CamStats = new();
+    public float moveTime;
+    public float zoomTime;
+    public float timeWaitZome;
+    public float timeWaitTap;
+    public float timeWaitZoomOutCam;
+    
+    [Button]
+    private async UniTask MoveCamToPosition(int id)
+    {
+        CreativeCamStat camStat = CamStats[id];
+        CameraPivot.gameObject.transform.DOMove(camStat.camPos, moveTime)
+            .SetEase(Ease.Linear)
+            .OnComplete(async () =>
+            {
+                await UniTask.WaitForSeconds(timeWaitZome);
+                DOTween.To(() => MainCamera.orthographicSize, x => MainCamera.orthographicSize = x, camStat.camSizeScrew,
+                    zoomTime).OnComplete(async () =>
+                {
+                    // await UniTask.WaitForSeconds(timeWaitTap);
+                    // Vector3 screwPosition = camStat.targetObject.GetCurrentScrewPosition();
+                    // Vector3 screwWorldPosition = MainCamera.WorldToScreenPoint(screwPosition);
+                    // Debug.Log("Got selectable object");
+                    // if (camStat.targetObject.TryRemoveScrew(out ColorId colorId))
+                    // {
+                    //     ScreenInGameContext.Events.SpawnScrew?.Invoke(screwWorldPosition, colorId);
+                    //     
+                    // }
+                    //
+                    // await UniTask.WaitForSeconds(timeWaitZoomOutCam);
+                    // DOTween.To(() => MainCamera.orthographicSize, x => MainCamera.orthographicSize = x, camStat.camSizeAnim,
+                    //     zoomTime).OnComplete(() =>
+                    // {
+                    //     // CameraPivot.gameObject.transform.DOMove(camStat.camPos, moveTime)
+                    //     //     .SetEase(Ease.Linear);
+                    // });
+                });
+                //MainCamera.orthographicSize = camStat.camSize;
+                //SetCameraSize(camStat.camSize);
+            });
+    }
+
+    [Button]
+    private async UniTask ResetCamToFloat(float size)
+    {
+        await UniTask.WaitForSeconds(timeWaitZome);
+        DOTween.To(() => MainCamera.orthographicSize, x => MainCamera.orthographicSize = x, size,
+            zoomTime);
+    }
+    // [Button]
+    // private async UniTask ResetCam()
+    // {
+    //     await UniTask.WaitForSeconds(timeWaitZome);
+    //     DOTween.To(() => MainCamera.orthographicSize, x => MainCamera.orthographicSize = x, 15.5f,
+    //         zoomTime);
+    // }
+    [Button]
+    private void TryRemoveScrew(Screw screw)
+    {
+        Vector3 screwPosition = screw.SelectableObject.GetCurrentScrewPosition();
+        Vector3 screwWorldPosition = MainCamera.WorldToScreenPoint(screwPosition);
+        if (screw.SelectableObject.TryRemoveScrew(out ColorId colorId))
+        {
+            ScreenInGameContext.Events.SpawnScrew?.Invoke(screwWorldPosition, colorId);
+        }
+    }
+
+    #endregion
 }
 
