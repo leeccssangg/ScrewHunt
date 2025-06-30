@@ -1,0 +1,19 @@
+cre_05.png
+size:1124,708
+filter:Linear,Linear
+Layer 657
+bounds:789,321,384,332
+rotate:90
+Layer 699
+bounds:985,44,117,71
+rotate:90
+canhcuwa
+bounds:789,61,87,194
+rotate:90
+capy
+bounds:789,150,189,169
+cuaso
+bounds:980,163,86,156
+house
+bounds:2,2,703,785
+rotate:90
